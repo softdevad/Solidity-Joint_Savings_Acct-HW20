@@ -2,7 +2,55 @@
 
 ![alt=“”](Images/20-5-challenge-image.png)
 
-### Background
+
+## Solution
+
+Below are screenshots from <a href='https://remix.ethereum.org/'>Remix</a> showing the successful completion of transactions on a Joint Blockchain Wallet created with Solidity.
+You can see the Solidity code for this under the <a href='https://github.com/eriklarson33/Solidity-Joint_Savings_Acct-HW20/blob/main/Starter_Code/joint_savings.sol'>joint_savings.sol</a> file.
+
+### Setting wallet addresses for Account 1 and Account 2:
+
+<img src='Images/Set_Joint_accounts.png' alt='Setting wallet addresses'></img>
+
+### Transaction 1: Send 1 ether as wei.
+
+<img src='Images/Transaction_1-Send_1_ether_as_wei.png' alt='Transaction_1-Send_1_ether_as_wei'></img>
+
+### Contract Balance for "Send 1 ether as wei"
+
+<img src='Images/Contract_Balance_1-Send_1_ether_as_wei.png' alt='Contract_Balance_1-Send_1_ether_as_wei'></img>
+
+### Transaction 2: Send 10 ether as wei
+
+<img src='Images/Transaction_2-Send_10_ether_as_wei.png' alt='Transaction 2: Send 10 ether as wei'></img>
+
+### Contract Balance for "Send 10 ether as wei"
+
+<img src='Images/Contract_Balance_2-Send_10_ether_as_wei.png' alt='Contract Balance for "Send 10 ether as wei"'></img>
+
+### Transaction 3: Send 5 ether.
+
+<img src='Images/Transaction_3-Send_5_ether.png' alt='Transaction 3: Send 5 ether'></img>
+
+### Contract Balance for "Send 5 ether"
+
+<img src='Images/Contract_Balance_3-Send_5_ether.png' alt='Contract Balance for "Send 5 ether"'></img>
+
+## Testing the Contract's Withdrawal Functionality:
+
+### Withdrawing 5 ether into account 1
+
+<img src='Images/Withdrawing_5_ether_into_accountOne.png' alt='Withdrawing 5 ether into accountOne'></img>
+
+### Withdrawing 10 ether into account 2
+
+<img src='Images/Withdrawing_10_ether_into_accountTwo.png' alt='Withdrawing 10 ether into account Two'></img>
+
+
+---
+
+
+### Challenge Background
 
 A fintech startup company has recently hired you. This company is disrupting the finance industry with its own cross-border, Ethereum-compatible blockchain that connects financial institutions. Currently, the team is building smart contracts to automate many of the institutions’ financial processes and features, such as hosting joint savings accounts.
 
